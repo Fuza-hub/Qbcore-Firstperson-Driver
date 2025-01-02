@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+
+
+}
+@font-face {
+    font-family: 'roboto'; /*a name to be used later*/
+    src: url('fonts/Roboto-Black.ttf'); /*URL to font*/
+}
+
+.eas {
+    font-family         : 'roboto';
+    position            : absolute;
+    display             : inline-block;
+    flex-direction      : row;
+    border-radius       : 20px;
+    min-width           : 30%;
+    font-size           : 1.2em;
+    color               : white;
+    text-align          : center;
+    bottom              : 20px;
+    right               : 35%; 
+    background-color    : rgba(0, 19, 32, 0.7);
+    border-top: 4px solid rgb(0, 0, 0);
+    background          : rgba(0, 0, 0, 0.616);
+    background: no-repeat url("https://th.bing.com/th/id/R.e9486748edd1b65c8a243fd73d8d6fb5?rik=IkTNygBx3QjUWw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f2%2f2%2fc%2f49683.jpg&ehk=rZALTDzt6Uekh7Zxi%2bSXfep08toecOVbgms56i6bTos%3d&risl=&pid=ImgRaw&r=0");
+}
