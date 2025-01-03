@@ -19,7 +19,10 @@ local function forceFirstPersonView()
                     end
                 end
             else
-                -- Arrête le thread si le joueur n'est plus dans un véhicule
+                -- Réinitialise la vue en troisième personne si le joueur sort du véhicule
+                if GetFollowVehicleCamViewMode() ~= 1 then
+                    SetFollowVehicleCamViewMode(1)
+                end
                 break
             end
         end
@@ -43,3 +46,4 @@ CreateThread(function()
         end
     end
 end)
+
